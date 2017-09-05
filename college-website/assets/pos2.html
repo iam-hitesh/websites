@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <title>Hitesh Yadav</title>
+    <link href="style2.css" type="text/css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Comfortaa|Dosis|Open+Sans+Condensed:300|Poiret+One|Rajdhani|Satisfy" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <style>
+        .banner{
+            background: url("image3.jpeg");
+            background-color: rgba(0,0,0,.5);
+            height:500px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .banner p{
+            font-size:52px;
+            margin:0px;
+            text-align: center;
+            color:#ffffff;
+            font-family: 'Rajdhani', sans-serif;
+            transform: translate(0%, 300%);
+            font-size: 62px;
+        }
+    </style>
+    <script>
+        $(document).ready(function(){
+            $("a").on('click', function(event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function(){
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="main">
+    <div class="header-menu">
+        <ul>
+            <li><a href="">Students</a></li>
+            <li><a href="">Faculty</a></li>
+            <li><a href="">Staff</a></li>
+            <li><a href="">Placement Cell</a></li>
+        </ul>
+    </div>
+    <div class="header-logo">
+        <img src="CET.png">
+    </div>
+    <div class="nav-menu">
+        <ul>
+            <li><a href="">Academics</a></li>
+            <li><a href="">Admissions</a></li>
+            <li><a href="#department">Departments</a></li>
+            <li><a href="">Community</a></li>
+        </ul>
+    </div>
+    <div class="banner">
+        <p>Admissions & Aids</p>
+    </div>
+    <div class="post">
+        <div class="post-section">
+            <div class="sidebar-menu">
+                <ul>
+                    <hr/>
+                    <a href=""><li>Engineering Admissions</li></a>
+                    <hr/>
+                    <a href=""><li>MBA Admissions</li></a>
+                    <hr/>
+                    <a href=""><li>Tuition & Costs</li></a>
+                    <hr/>
+                    <a href=""><li>Scholarships</li></a>
+                    <hr/>
+                </ul>
+            </div>
+            <div class="post-content">
+                <h1>Admissions & Aids</h1>
+               <p>Johns Hopkins is America's first research university, founded on the belief that teaching and research are interdependent, and that a modern university must do both well.
+                   Today, we remain a world leader in both teaching and research, with more than 21,000 undergraduate and graduate students studying with esteemed faculty members across nine world-class academic divisions.</p>
+                <p>Johns Hopkins is America's first research university, founded on the belief that teaching and research are interdependent, and that a modern university must do both well.
+                    Today, we remain a world leader in both teaching and research, with more than 21,000 undergraduate and graduate students studying with esteemed faculty members across nine world-class academic divisions.</p>
+                <h2>Admission Notice</h2>
+                <a href="">Hitesh</a>
+                <br/>
+                <img src="image2.jpeg">
+            </div>
+            <div class="invi">
+                Hi
+            </div>
+        </div>
+    </div>
+    <div class="usocial">
+        <h2>WECETSocial
+            <i class="fa fa-facebook-official fa-2x" style="padding-left:20px;" aria-hidden="true"></i>
+            <i class="fa fa-twitter-square fa-2x "style="padding-left:20px;" aria-hidden="true"></i>
+            <i class="fa fa-youtube-play fa-2x" style="padding-left:20px;" aria-hidden="true"></i>
+        </h2>
+    </div>
+    <div class="department" id="department">
+        <div class="search-section">
+            <table>
+                <tr>
+                    <td colspan="2"><input class="search-form" type="text" name="search"></td>
+                    <td>Explore</td>
+                </tr>
+            </table>
+        </div>
+        <div class="department-section">
+            <table>
+                <tr>
+                    <td><a href="">Physics</a></td>
+                    <td><a href="">Chemistry</a></td>
+                    <td><a href="">Maths</a></td>
+                </tr>
+                <tr>
+                    <td><a href="">English</a></td>
+                    <td><a href="">Ceramic Engineering</a></td>
+                    <td><a href="">Civil Engineering</a></td>
+                </tr>
+                <tr>
+                    <td><a href="">Computer Science &amp; Engineering</a></td>
+                    <td><a href="">Electrical Engineering</a></td>
+                    <td><a href="">Electronics &amp; Communication Engineering</a></td>
+                </tr>
+                <tr>
+                    <td><a href="">Mechanical Engineering</a></td>
+                    <td colspan="2"><a href="">Business Administration</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-section">
+            <div class="footer-section-box">
+                <ul>
+                    <li><a href="">Prayaag</a></li>
+                    <li><a href="">Prayaag</a></li>
+                    <li><a href="">Admissions</a></li>
+                    <li><a href="">Undergraduate Admissions</a></li>
+                </ul>
+            </div>
+            <div class="footer-section-box">
+                <ul>
+                    <img src="cet-logo.png">
+                </ul>
+            </div>
+            <div class="footer-section-box">
+                <ul>
+                    <li><a href="">Prayaag</a></li>
+                    <li><a href="">Prayaag</a></li>
+                    <li><a href="">Admissions</a></li>
+                    <li><a href="">Undergraduate Admissions</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-social">
+        <div class="footer-social-section">
+            <div class="footer-social-box-l">
+                &copy College of Engineering and Technology, Bikaner
+            </div>
+            <div class="footer-social-box">
+                <ul>
+                    <li><a href=""><i class="fa fa-facebook-official fa-2x"  aria-hidden="true"></i></a></li>
+                    <li><a href=""><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
+                    <li><a href=""><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+                    <li><a href=""><i class="fa fa-youtube-play fa-2x"  aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

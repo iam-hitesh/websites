@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <title>Hitesh Yadav</title>
+    <link href="style2.css" type="text/css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Comfortaa|Dosis|Open+Sans+Condensed:300|Poiret+One|Rajdhani|Satisfy" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <style>
+        .banner{
+            background: url("image3.jpeg");
+            background-color: rgba(0,0,0,.5);
+            height:500px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .banner p{
+            font-size:52px;
+            margin:0px;
+            text-align: center;
+            color:#ffffff;
+            font-family: 'Rajdhani', sans-serif;
+            transform: translate(0%, 300%);
+            font-size: 62px;
+        }
+    </style>
+    <script>
+        $(document).ready(function(){
+            $("a").on('click', function(event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function(){
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+<?php 
+include 'header.php';
+?>
+    <div class="news-blog">
+        <div class="search-bar">
+            Search for all News and Posts
+            <form name="search-posts">
+                <input type="text" name="search" class="search-form" placeholder="Search for Post,Tag or Author here">
+                <input type="submit" value="Search" class="submit-button">
+            </form>
+        </div>
+        <div class="news-blog-section">
+            <div class="news-blog-box">
+                <img src="image2.jpeg">
+                <p class="tag">Engineering</p>
+                <p class="headline">
+                    Graduate College Four faculty members honored for excellence in mentoring graduate students
+                </p>
+                <a href="#"><p class="link">Read More</p></a>
+            </div>
+            <div class="news-blog-box">
+                <img src="image2.jpeg">
+                <p class="tag">Engineering</p>
+                <p class="headline">
+                    Graduate College Four faculty members honored for excellence in mentoring graduate students
+                </p>
+                <a href="#"><p class="link">Read More</p></a>
+            </div>
+            <div class="news-blog-box">
+                <img src="image2.jpeg">
+                <p class="tag">Engineering</p>
+                <p class="headline">
+                    Graduate College Four faculty members honored for excellence in mentoring graduate students
+                </p>
+                <a href="#"><p class="link">Read More</p></a>
+            </div>
+            <div class="news-blog-box">
+                <img src="image2.jpeg">
+                <p class="tag">Engineering</p>
+                <p class="headline">
+                    Graduate College Four faculty members honored for excellence in mentoring graduate students
+                </p>
+                <a href="#"><p class="link">Read More</p></a>
+            </div>
+            <div class="news-blog-box">
+                <img src="image2.jpeg">
+                <p class="tag">Engineering</p>
+                <p class="headline">
+                    Graduate College Four faculty members honored for excellence in mentoring graduate students
+                </p>
+                <a href="#"><p class="link">Read More</p></a>
+            </div>
+            <div class="news-blog-box">
+                <img src="image2.jpeg">
+                <p class="tag">Engineering</p>
+                <p class="headline">
+                    Graduate College Four faculty members honored for excellence in mentoring graduate students
+                </p>
+                <a href="#"><p class="link">Read More</p></a>
+            </div>
+            <div class="news-blog-box">
+                <img src="image2.jpeg">
+                <p class="tag">Engineering</p>
+                <p class="headline">
+                    Graduate College Four faculty members honored for excellence in mentoring graduate students
+                </p>
+                <a href="#"><p class="link">Read More</p></a>
+            </div>
+        </div>
+        <div class="more-link">See More</div>
+    </div>
+    <?php
+    include 'footer.php';
+    ?>
+</body>
+</html>
